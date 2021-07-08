@@ -2,7 +2,6 @@ package br.com.alura.ecommerce.consumer;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 
-
 public class FraudDetectorService {
 	public static void main(String[] args) {
 		var fraudService = new FraudDetectorService();

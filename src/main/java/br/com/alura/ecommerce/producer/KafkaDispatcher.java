@@ -1,7 +1,6 @@
 package br.com.alura.ecommerce.producer;
 
 import java.io.Closeable;
-import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.ExecutionException;
 

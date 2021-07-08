@@ -1,6 +1,5 @@
 package br.com.alura.ecommerce.producer;
 
-import java.io.IOException;
 import java.util.UUID;
 import java.util.concurrent.ExecutionException;
 
