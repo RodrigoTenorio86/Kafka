@@ -1,4 +1,4 @@
-package br.com.alura.ecommerce;
+package br.com.alura.ecommerce.consumer;
 
 import java.time.Duration;
 import java.util.Properties;
@@ -13,7 +13,7 @@ public class LogService {
 		var consumer = new KafkaConsumer<String,String>(properties());
 		consumer.subscribe(Pattern.compile("ECOMMERCE.*"));
 		while(true) {
-			var records = consumer.poll(Duration.ofMillis(100));
+			var records = consumer.poll(Duration.ofMillis(1000));
 			if(records.isEmpty()) {
 				System.out.println("Encotrei "+records.count()+ " registros");
 				for(var record : records) {

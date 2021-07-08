@@ -1,0 +1,4 @@
+br\com\alura\ecommerce\consumer\EmailService.class
+br\com\alura\ecommerce\consumer\LogService.class
+br\com\alura\ecommerce\consumer\FraudDetectorService.class
+br\com\alura\ecommerce\producer\NewOrderMain.class
